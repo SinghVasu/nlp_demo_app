@@ -7,7 +7,6 @@ wordcloud==1.9.3
 matplotlib==3.5.1
 docx==0.2.4
 pdfplumber
-string
 nltk==3.7
 re
 sklearn
