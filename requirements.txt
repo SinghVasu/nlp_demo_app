@@ -8,6 +8,6 @@ matplotlib==3.5.1
 docx==0.2.4
 pdfplumber
 nltk==3.7
-sklearn
+scikit-learn
 altair==4.2.0
 heapq
