@@ -1,0 +1,14 @@
+streamlit
+pandas
+spacy
+textblob
+wordcloud
+matplotlib
+docx
+pdfplumber
+string
+nltk
+re
+sklearn
+altair
+heapq
