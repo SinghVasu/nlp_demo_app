@@ -5,7 +5,7 @@ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0
 textblob==0.17.1
 wordcloud==1.9.3
 matplotlib==3.5.1
-docx==0.2.4
+python-docx
 pdfplumber
 nltk==3.7
 scikit-learn
