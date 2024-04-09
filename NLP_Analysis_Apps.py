@@ -11,7 +11,8 @@ import spacy
 from textblob import TextBlob
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-import docx
+#import docx
+from docx import Document  # Corrected import for python-docx
 import pdfplumber
 import string
 from nltk.corpus import stopwords
@@ -40,7 +41,7 @@ def app1():
         return text
 
     def read_docx(file):
-        doc = docx.Document(file)
+        doc = Document(file)
         text = ""
         for para in doc.paragraphs:
             text += para.text + '\n'
@@ -159,7 +160,7 @@ def app2():
         return text
 
     def read_docx(file):
-        doc = docx.Document(file)
+        doc = Document(file)
         text = ""
         for para in doc.paragraphs:
             text += para.text + '\n'
