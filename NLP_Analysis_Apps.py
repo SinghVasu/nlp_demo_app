@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 from docx import Document  # Corrected import for python-docx
 import pdfplumber
 import string
+import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
